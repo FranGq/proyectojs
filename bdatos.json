@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "imagen": "./img/correaPaseo.png",
+        "nombre": "Correa para Paseo",
+        "precio": 40
+    },
+    {
+        "id": 2,
+        "imagen": "./img/cajaArena.png",
+        "nombre": "Caja de Arena",
+        "precio": 80
+    },
+    {
+        "id": 3,
+        "imagen": "./img/pelota.png",
+        "nombre": "Pelota",
+        "precio": 15
+    },
+    {
+        "id": 4,
+        "imagen": "./img/huesoGoma.png",
+        "nombre": "Hueso de Goma",
+        "precio": 20
+    },
+    {
+        "id": 5,
+        "imagen": "./img/comederoDoble.png",
+        "nombre": "Comedero Doble",
+        "precio": 55
+    },
+    {
+        "id": 6,
+        "imagen": "./img/camaGato.png",
+        "nombre": "Cama Circular para Gato",
+        "precio": 90
+    },
+    {
+        "id": 7,
+        "imagen": "./img/peine.png",
+        "nombre": "Peine",
+        "precio": 15
+    },
+    {
+        "id": 8,
+        "imagen": "./img/antipulgasPerro.png",
+        "nombre": "Antipulgas para Perro",
+        "precio": 35
+    },
+    {
+        "id": 9,
+        "imagen": "./img/transportadorTv.png",
+        "nombre": "Transportador TV",
+        "precio": 80
+    },
+    {
+        "id": 10,
+        "imagen": "./img/arnesPerro.png",
+        "nombre": "Arnés para Perro",
+        "precio": 40
+    },
+    {
+        "id": 11,
+        "imagen": "./img/bozalDiseño.png",
+        "nombre": "Bozal con Diseño",
+        "precio": 40
+    },
+    {
+        "id": 12,
+        "imagen": "./img/correaDiseño.png",
+        "nombre": "Correa con Diseño",
+        "precio": 30
+    },
+    {
+        "id": 13,
+        "imagen": "./img/camaPerro.png",
+        "nombre": "Cama para Perro",
+        "precio": 70
+    },
+    {
+        "id": 14,
+        "imagen": "./img/gelDental.png",
+        "nombre": "Gel Dental",
+        "precio": 15
+    },
+    {
+        "id": 15,
+        "imagen": "./img/alfombraEntrenamiento.png",
+        "nombre": "Alfombra de Entrenamiento",
+        "precio": 50
+    }
+]

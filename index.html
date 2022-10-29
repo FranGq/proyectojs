@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <title>Document</title>
+</head>
+
+<body class="container m-5">
+  <h1>Bienvenida</h1>
+  <h3>Información de descuento.</h3>
+  <div class="container row gap-3 mt-3" id="productosLista">
+  </div>
+  <br />
+  <div>
+    <h3>Carrito de compra</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"> </th>
+          <th scope="col">Item</th>
+          <th scope="col">Cantidad</th>
+          <th scope="col">Agregar cantidad</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tbody id="calculoCompra"></tbody>
+        <tr id="totalPagar">
+          <th>
+            <h3>Total a pagar</h3>
+          <td class="font-weight-bold">$ <span>0</span></td>
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <template id="templateCard">
+    <div class="card" style="width: 12.5rem;">
+      <img class="card-img-top" src="" alt="">
+      <div class="card-body">
+        <br />
+        <h5><b><span class="producto"></span></b></h5>
+        Precio: <b>$ <span class="precio"></span></b>
+        <br />
+      </div>
+      <button class="agregarButton btn btn-primary my-2">Agregar al carrito</button>
+    </div>
+  </template>
+
+  <template id="templateCarrito">
+    <tr>
+      <td><img src="" alt="" width="150" height="105" /></td>
+      <td>Correa para paseo</td>
+      <td>1</td>
+        <th>
+          <button type="button" class="btn btn-primary btn-sm less" id="less">-</button>
+          <button type="button" class="btn btn-primary btn-sm more" id="more">+</button>
+        </th>
+      <td>$ <span>50</span></td>
+    </tr>
+  </template>
+
+  <template class="row" id="templateTotalPagar">
+    <th>
+      <h4 class="fw-bold">Total a pagar</h4>
+    </th>
+    <td>
+      <h4 class="fw-bold">$ <span>0</span></h4>
+    </td>
+    <div>
+      <button class="vaciarButton btn btn-danger mx-2">Vaciar carrito</button>
+      <button class="finalizarButton btn btn-success mx-2">Finalizar compra</button>
+    </div>
+  </template>
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="./entrega_final.js"></script>
+</body>
+
+</html>
